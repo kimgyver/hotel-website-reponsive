@@ -104,8 +104,13 @@ p {
     overflow: auto;
 }
 
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
 #navbar .logo {
-    float: left;
+    /* float: left; */
     padding-top: 20px;
 }
 
@@ -115,7 +120,7 @@ p {
 
 #navbar ul {
     list-style: none;
-    float: right;
+    /* float: right; */
 }
 
 #navbar ul li {
@@ -157,17 +162,18 @@ p {
 
 #home-info {
     height: 400px;
+    display: flex;
 }
 
 #home-info .info-img {
-    float: left;
+    /* float: left; */
     width: 50%;
     background: url('../img/photo-1.jpg') no-repeat;
     min-height: 100%;
 }
 
 #home-info .info-content {
-    float: right;
+    /* float: right; */
     width: 50%;
     height: 100%;
     text-align: center;
@@ -202,8 +208,12 @@ p {
     /* height: 500px; */
 }
 
+#about-info .container {
+    display: flex;
+}
+
 #about-info .info-left {
-    float: left;
+    /* float: left; */
     width: 50%;
     /* height: 400px; */
     padding: 20px;
@@ -211,7 +221,7 @@ p {
 }
 
 #about-info .info-right {
-    float: right;
+    /* float: right; */
     width: 50%;
     /* min-height: 100%; */
 }
